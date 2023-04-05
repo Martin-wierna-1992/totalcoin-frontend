@@ -1,0 +1,50 @@
+{
+  "name": "Veterinaria",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/charts": "^1.4.2",
+    "antd": "^4.19.5",
+    "antd-money": "^1.0.4",
+    "axios": "^0.26.1",
+    "currency.js": "^2.0.4",
+    "http-proxy-middleware": "^2.0.6",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
+    "node-sass": "^7.0.1",
+    "query-string": "^7.1.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-transition-group": "^4.4.2",
+    "screenfull": "^6.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

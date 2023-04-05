@@ -1,0 +1,75 @@
+Arguments: 
+  /Users/jpgonzalezquinteros/.nvm/versions/node/v12.18.3/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/opt/php@7.4/sbin:/usr/local/opt/php@7.4/bin:/usr/local/opt/php@7.3/sbin:/usr/local/opt/php@7.3/bin:/usr/local/opt/mysql-client/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/Cellar/php@7.1/7.1.17/bin:/Users/jpgonzalezquinteros/.nvm/versions/node/v12.18.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/go/bin:/Users/jpgonzalezquinteros/go/bin:/Users/jpgonzalezquinteros/.composer/vendor/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.18.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ant-design/maps/-/maps-1.0.6.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:180:17)
+
+npm manifest: 
+  {
+    "name": "frontend-web-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@ant-design/charts": "^1.4.2",
+      "antd": "^4.19.5",
+      "antd-money": "^1.0.4",
+      "axios": "^0.26.1",
+      "http-proxy-middleware": "^2.0.6",
+      "jwt-decode": "^3.1.2",
+      "moment": "^2.29.3",
+      "moment-timezone": "^0.5.34",
+      "node-sass": "^7.0.1",
+      "query-string": "^7.1.1",
+      "react": "^18.1.0",
+      "react-dom": "^18.1.0",
+      "react-icons": "^4.3.1",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "5.0.1",
+      "react-transition-group": "^4.4.2",
+      "screenfull": "^6.0.1",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

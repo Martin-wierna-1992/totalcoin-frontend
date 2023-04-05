@@ -1,0 +1,57 @@
+.header-icon {
+  width: 40;
+  height: 40;
+  border-radius: 2;
+  display: 'inline-block';
+  vertical-align: 'middle'
+}
+
+.header-icon {
+  font-size: 18px;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+@media (max-width: 600px) {
+  .header-icon {
+    font-size: 12px;
+  }
+
+  .header-title {
+    font-size: 10px;
+    font-weight: 100;
+  }
+}
+
+$testColor: #d6d6d6;
+$avatarColor: #00a7dd;
+$avatarTestColor: #f4511e;
+
+.app-header-container {
+  margin: 8px 16px;
+  
+  &.test {
+    background-color: $testColor;
+  }
+
+  .app-header {
+    padding: 0px;
+    background-color: #fff;
+    
+    &.test {
+      background-color: $testColor;
+    }
+
+    .header-avatar {
+      cursor: pointer;
+      background-color: $avatarColor;
+     
+      &.test {
+        background-color: $avatarTestColor;
+      }
+    }
+  }
+}
